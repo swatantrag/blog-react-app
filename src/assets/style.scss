@@ -1,0 +1,58 @@
+.wrap {
+    padding: 20px 50px;
+    h2 { 
+        text-align: center;
+    }
+    .search {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 5px;
+        input {
+            width: 300px;
+            padding: 5px 10px;
+        }
+    }
+    table {
+        width: 100%;
+        padding: 5px;
+        thead tr td {
+            padding: 10px;
+            font-weight: 700;
+        }
+        tbody {
+            tr { 
+                cursor: pointer;
+                &.even {
+                    background-color: #ccc;
+                }   
+                td {
+                    padding: 5px 10px;
+                }
+            }
+        }
+        td:nth-child(1) {
+            text-align: center;
+        }
+    }
+    .detail {
+        background-color: #d3d3d3;
+        padding: 30px;
+        .back {
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+        h3 {
+            margin: 40px 0 20px;
+        }
+        p {
+            margin: 20px 0;
+        }
+        .comments {
+            padding: 5px 25px;
+        }
+    }
+    .no-record {
+        padding: 30px;
+        text-align: center;
+    }
+}
